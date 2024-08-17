@@ -1,0 +1,37 @@
+{
+  "name": "js-basics-flow-control",
+  "version": "0.1.0",
+  "description": "JavaScript Control Flow Lab for Learn.co",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/learn-co-curriculum/js-basics-flow-control.git"
+  },
+  "keywords": [
+    "learn",
+    "flatiron school",
+    "javascript",
+    "control flow",
+    "if",
+    "else",
+    "lab"
+  ],
+  "author": "@jk",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/learn-co-curriculum/js-basics-flow-control/issues"
+  },
+  "homepage": "https://github.com/learn-co-curriculum/js-basics-flow-control#readme",
+  "devDependencies": {
+    "babel-core": "^5.8.38",
+    "babel-preset-env": "^0.0.0",
+    "chai": "4.1.2",
+    "jsdom": "^24.1.1",
+    "mocha": "^10.7.3",
+    "mocha-jsdom": "~1.1.0",
+    "mocha-multi": "1.0.1"
+  }
+}
